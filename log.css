@@ -1,6 +1,7 @@
 body,html{
 	height:100%;
 	margin: 0;
+	width: 100%;
 }
 .nav{
 	
@@ -11,7 +12,7 @@ body,html{
 }
 .bg { 
   
-  background-color: #E9FCDE ;
+  background-color: white ;
  background-position: center center;
             
             /* removing tilings and repeatition*/
@@ -69,7 +70,7 @@ transform: translate(-50%, -50%);
 	
 }
 .col2{
-	background-color: white;
+	background-color: #6D6C6B  ;
 	
 }
 
@@ -202,7 +203,7 @@ padding-left: 50px;
 /* bottom container */
 .bottom-container {
   text-align: center;
-  background-color: #666;
+  background-color: black;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -212,6 +213,7 @@ padding-left: 50px;
     width: 100%;
     margin-top: 0;
   }
+  
   /* hide the vertical line */
  
   /* show the hidden text on small screens */
@@ -228,10 +230,21 @@ padding-left: 50px;
 }
 
 
+
+.card .im{
+	width:285px;
+height:150px;
+}
+
+.author {color: cornflowerblue;}
+
 .foot{
 	background-color:darkgray;
 	color:black;
 	text-decoration: none;
+	overflow: hidden;
+	position:static;
+
 }
 .foot a{
 	color:black;
@@ -245,4 +258,9 @@ height:150px;
 	text-decoration: none;
 	color:black;
 }
-.author {color: cornflowerblue;}
+.foot .tex{
+	overflow: hidden;
+}
+.foot{
+	margin-top: 200px;
+}
